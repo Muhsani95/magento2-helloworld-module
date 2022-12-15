@@ -1,0 +1,22 @@
+{
+    "name": "gm/module-helloworld",
+    "description": "Hello World Module Magento 2",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "ghulam",
+            "email": "ghulamgm995@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gm\\HelloWorld\\": ""
+        }
+    }
+}
